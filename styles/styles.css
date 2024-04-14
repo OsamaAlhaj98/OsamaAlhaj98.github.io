@@ -1,0 +1,173 @@
+/* page defaults */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.fixed-width {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+/* typography */
+h1, h2 {
+    font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+h2, p { /* spacing between elements */
+    margin-bottom: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    font-size: 12px;
+}
+
+
+
+/* site-wide styling */
+
+header, footer {
+    background-color: #c74365;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+header a {
+    font-size: 18px;
+}
+
+header img {
+    padding: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+header h1 {
+    margin: 0px 190px 0px 0px;
+    line-height: 50px;
+}
+
+li {
+    margin-left: 15px;
+    line-height: 50px;
+}
+
+footer {
+    margin-top: 15px;
+    text-align: center;
+    padding: 15px;
+}
+
+
+
+/* home page styling */
+.italics {
+    font-style: italic;
+}
+
+article {
+    background-color: lightgray;
+    padding: 15px;
+    margin: 15px;
+}
+
+
+/* profile page styling */
+.wide-column {
+    width: 420px; 
+}
+
+.narrow-column {
+    width: 180px; 
+}
+
+.wide-column img {
+    width: 120px;
+}
+
+.labels { /* used on employee profile */
+    font-weight: bold;
+    width: 70px;
+    text-align: right;
+    margin-right: 15px; /* FIX */
+}
+
+.light-background {
+    margin-top: 30px;
+    background-color: lightgray;
+    height: 140px;
+    
+}
+
+.light-background h2 {
+    margin: 10px 0px 15px 15px;
+}
+
+
+/* form styling */
+
+form {
+    margin: 45px 0px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 100px;
+}
+
+form .flex div {
+    margin-right: 15px;
+}
+
+button {
+    width: 108px;
+    height: 21px;
+    margin: 30px 0px 0px 492px; 
+    border: 1px solid grey;
+    background-color: white;
+    border-radius: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+    background-color: lightgrey;
+}
